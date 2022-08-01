@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Simulador de la Liga Profesional de Fútbol</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main-liga-argentina.css'>
+
+</head>
+<body>
+    <h1>Simulador de la Liga Profesional de Fútbol</h1>
+
+    <main id="Page">
+
+        <div id="table">
+            <button id="simulate-button">Simular liga</button>
+
+            <button class="hidden" id="delete-button">Limpiar</button>
+            <br class="initial">
+            <br class="initial">
+            
+            <div id="final-standings">
+                </div>
+
+        </div>
+
+        <div class="hidden" id="info-results">
+            <article id="league-winner"></article>
+            <br class="initial">
+            <article id="champions-league"></article>
+            <br class="initial">
+            <article id="europa-league"></article>
+            <br class="initial">
+            <article id="conference-league"></article>
+            <br class="initial">
+            <article id="relegated"></article>
+        </div>
+
+    </main>
+
+    <script src='simulador-liga-argentina.js'></script>
+    <script src='interfaz-liga-argentina.js'></script>
+</body>
+</html>
